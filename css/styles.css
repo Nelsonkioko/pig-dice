@@ -1,18 +1,39 @@
-.player-0-panel {
-  background-color: #00ffff ;
+.player0, .player1  {
+  background-color:  #ffcc66;
   width: 50%;
   height: 100%;
   float: left;
+  height: 400px;
+  padding: 100px;
+  opacity:0.7;
+  font-family: fantasy;
 }
-.player-1-panel {
-  background-color: #ccff33;
-  width: 50%;
-  height: 100%;
-  float: left;
+.buttons p {
+text-align: center;
+
 }
-#output1  {
+.buttons  {
+  margin-top: 200px;
+  padding-right: 100px;
+  clear: left;
+}
+#output0  {
   display: none;
 }
 #output1 {
   display: none;
+}
+body  {
+  background-image: url("dice1.jpg");
+  background-size: cover;
+}
+.current-box  {
+  border-style: ridge;
+}
+#head  {
+  text-align: center;
+  text-decoration-color: #ffc34d;
+}
+.playerone, .playertwo p {
+  font-family: fantasy;
 }
