@@ -6,7 +6,7 @@ var currentPlayer = 0;
 var active = true;//create a var and set it to true
 
 $(document).ready(function(){
-  //add the string "active" to the div with class playerone
+  //add the class "active" to the div with class playerone
 document.querySelector('.player1').classList.add('active');
 
 //create a rolldice function

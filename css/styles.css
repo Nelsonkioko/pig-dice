@@ -6,7 +6,7 @@
   padding: 100px;
   padding-top: 2em;
   margin-top: 0.5em;
-  opacity: 0.7;
+  opacity: 0.9;
   font-family: fantasy;
 }
 .buttons p {
@@ -37,4 +37,7 @@ body  {
 }
 .playerone, .playertwo p {
   font-family: fantasy;
+}
+.active {
+  opacity: 0.5;
 }
