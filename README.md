@@ -4,8 +4,8 @@
 #### Neledi ltd
 
 
-##BDD
-##Behavior Driven Development
+## BDD
+## Behavior Driven Development
 * it has a die that has number 1 to 6.
 * Player one rolls die until either until he/she gets a one or decides to hold.
 * Player two rolls die until either until he/she gets a one or decides to hold.
