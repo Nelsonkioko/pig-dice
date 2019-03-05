@@ -1,5 +1,5 @@
 #### pigdice
-#### This is my pigdice project, 22/2/2019
+#### This is my pigdice project
 #### By Nelson Kioko
 #### Neledi ltd
 
