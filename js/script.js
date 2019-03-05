@@ -13,7 +13,6 @@ document.querySelector('.player1').classList.add('active');
 var rollDice = function() {
 
   if (active) {
-
       var randomNum = Math.floor(Math.random() * 6 + 1);
       //Display the random number
       document.getElementById('rolled' + currentPlayer).innerHTML = "you have rolled:" + randomNum;
@@ -29,7 +28,7 @@ var rollDice = function() {
           document.getElementById('total' + currentPlayer).innerHTML = total;
 
    } else {
-   nextPlayer();
+    nextPlayer();
       }
   }
 }
