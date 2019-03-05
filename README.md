@@ -11,6 +11,7 @@
 * Player two rolls die until either until he/she gets a one or decides to hold.
 * It checks the first player to reach 100.
 * The first to reach 100 wins.
+* it displays a winning message on the winning side.
 
 ## Setup/Installation Requirements
 * You will need a browser to run this site.
