@@ -7,7 +7,7 @@ var active = true;//create a var and set it to true
 
 $(document).ready(function(){
   //add the class "active" to the div with class playerone
-document.querySelector('.player1').classList.add('active');
+document.querySelector('.player0').classList.add('active');
 
 //create a rolldice function
 var rollDice = function() {
@@ -66,6 +66,7 @@ var nextPlayer = function() {
     }
 
     total = 0;
+
     //puts a zero on the current round
     document.getElementById('total0').textContent = '0';
     document.getElementById('total1').textContent = '0';
