@@ -1,9 +1,9 @@
 
-
+//Business Logic
 var finalTally = [0,0];//array with two values(score for player 1 and score for player 2)
 var total = 0;
 var currentPlayer = 0;
-var active = true;
+var active = true;//create a var and set it to true
 
 $(document).ready(function(){
   //add the string "active" to the div with class playerone
@@ -13,6 +13,7 @@ document.querySelector('.player1').classList.add('active');
 var rollDice = function() {
 
   if (active) {
+
       var randomNum = Math.floor(Math.random() * 6 + 1);
       //Display the random number
       document.getElementById('rolled' + currentPlayer).innerHTML = "you have rolled:" + randomNum;
@@ -36,10 +37,8 @@ var rollDice = function() {
 //create a function for holding
   var holdDice = function()  {
   if (active) {
-      //Add current score to global score
-      finalTally[currentPlayer] += total;
 
-      //Update the UI
+      finalTally[currentPlayer] += total;
 
       document.getElementById('result' + currentPlayer).innerHTML = finalTally[currentPlayer];
 
@@ -50,6 +49,7 @@ var rollDice = function() {
           active = false;
 
       } else {
+
       nextPlayer();
       }
   }
@@ -59,15 +59,15 @@ var rollDice = function() {
 var nextPlayer = function() {
     if (currentPlayer === 0) {
     currentPlayer = 1;
-    $(".player0").css("opacity", "0.9");
+
     }
     else {
       currentPlayer = 0;
-      $(".player0").css("opacity", "0.9");
+
     }
 
     total = 0;
-
+    //puts a zero on the current round
     document.getElementById('total0').textContent = '0';
     document.getElementById('total1').textContent = '0';
 
@@ -78,7 +78,7 @@ var nextPlayer = function() {
 
 }
 
-
+// user interface
 
 $("#roll").click(function() {
    rollDice();
